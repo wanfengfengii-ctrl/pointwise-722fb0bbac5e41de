@@ -1,0 +1,25 @@
+{
+  "files": {
+    "tests/support.py": "ee4cf10495ec9d41c9d6e684a6c7717df559c9884daa5bd0d8caacec07e310a5",
+    "tests/__init__.py": "78857f931e9f92a933ad70a707c329421c690f5a78e124e43dfa5dbe8b8c2aba",
+    "tests/test_storage.py": "da11d93e6201b967a55369268c50fbd345f49ab8b7d6fec94b42fdff352f01d1",
+    "tests/test_jobs.py": "abb70ff9f037fb5fe1318576d06a691a85ee69c02b2d8a304f81a72b4b696ba5",
+    "tests/test_schemas.py": "adf38c661a99a5e0dfbf33a657701b39477f0e065182656d15e6664f31c33591",
+    "tests/test_ports.py": "a57569ce66b1d8b66913966f0cba171d7b697aecb0586d446334c02b76314571",
+    "tests/test_publish.py": "7601573a983e21c403ac9fb41835105c9e611dcdfda9bc502d72e9308ac2cd91",
+    "tests/test_evolution.py": "70aecdd4cce40a579da168a824553dd21bb2f0ec48cc70db83b6024daf223495",
+    "tests/test_recursive.py": "6db6051745ceb56a51be21011e9f5c5f53692e51aeeb343876b3e4e9e0d87dfe",
+    "warehouse/legacy.py": "35d92b61c4e6cc91e806a87549a70f4c924e822ecf8f5f86d50886b9e06daefb",
+    "warehouse/schemas.py": "a9cb39f8ad03af8d7705f053619335a7fcbbcd147790407a917cf0a98e0cc280",
+    "vendor/sdk1.py": "ab4765a6b5943c0030895be9a42f2abbd56f82d0d7c2239a81bb861535cadff0",
+    "vendor/codec.py": "4f628aede1e473de7739fd1b27caf2ef78fa5af25bf6ce0c638cedd67901323b"
+  },
+  "methods": {
+    "warehouse/archive.py:Archive.read_batch": "81ab750c3686abd82b1e79098a8b6f12ed381f69534858226dd306971c9cf324",
+    "warehouse/jobs.py:Jobs.binding": "0b62268bf9272feebe99565810c0eb60f1afff9e93fc33dbf6f712e6f0c24555",
+    "warehouse/jobs.py:Jobs.create_job": "d10d39148796105e8600098f401fd2881dbbc1e31ebf7a1d533c71ec79162d38",
+    "warehouse/jobs.py:Jobs.materialized_run_job": "9e0f95074f983f1fb16e3a703720dbc06108080f16394d3acced2f4cd753425d",
+    "warehouse/results.py:Results.get_result": "00380799053eab6d166234963a5df2194ce09c6cc45032e8db018f9dd34bc650",
+    "warehouse/results.py:Results.publish": "b06f9bc54fd27b7facae70b67e57c679c7263fe5d74abbd28af6d6ec78d7e2a5"
+  }
+}
