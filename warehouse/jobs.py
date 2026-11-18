@@ -42,7 +42,12 @@ class Jobs:
         return {"reader_id": row[0], "batch_ids": json.loads(row[1]), "state": row[2]}
 
     def run_job(self, job_id):
-        return self.materialized_run_job(job_id)
+        # Streaming, bounded-memory fixed-reader run.  The materialized method
+        # below remains the frozen correctness reference (bench.py reference
+        # backend); this entry keeps the same interface, return values, hook
+        # boundaries and failure semantics.
+        from .runner import StreamingRunner
+        return StreamingRunner(self).run(job_id)
 
     def materialized_run_job(self, job_id):
         with self.db.transaction("run"):
